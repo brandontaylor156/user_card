@@ -1,17 +1,70 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: hey_comic;
 }
 
-.container {
+@font-face {
+    font-family: hey_comic;
+    src: url(./hey_comic/Hey_Comic.ttf);
+}
+
+span {
+    font-size: 2rem;
+}
+
+.card {
     width: 50%;
     margin: 0 auto;
     margin-top: 5%;
-    border: 2px solid #cccccc;
+    min-height: 300px;
+    overflow: hidden;
+}
+
+.topBar {
+    min-height: 80px;
+    background-color: #16a2b8;
+    border: 3px solid #16a2b8;
+}
+
+.content {
+    margin-left: 30px;
+    flex-direction: column;
+}
+
+#profilePic {
+    width: 100px;
+}
+
+.relative {
     position: relative;
 }
 
-header {
-    min-height: 100px;
-    background-color: hsl(199deg 58% 53%);
+.absolute {
+    position: absolute;
+    top: 30px;
+}
+
+.iconMap {
+    width: 10px;
+}
+
+.iconGear{
+    width: 15px;
+}
+
+.flex {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+a {
+    color: #085394;
+}
+
+.whitespace {
+    border: 3px solid gray;
+    border-top:none;
+    min-height: 250px;
 }
