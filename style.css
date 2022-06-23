@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 5%;
+    border: 2px solid #cccccc;
+    position: relative;
+}
+
+header {
+    min-height: 100px;
+    background-color: hsl(199deg 58% 53%);
+}
